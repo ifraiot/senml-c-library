@@ -15,7 +15,6 @@
 
 #ifdef ESP32
     #include <base64.h>
-    #include <arduino.h>                        //needed for sprintf
 #elif __MBED__
     #include <base64.h>
     int base64_enc_len(int plainLen) {
